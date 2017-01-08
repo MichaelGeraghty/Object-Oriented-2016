@@ -1,5 +1,7 @@
 package ie.gmit.sw.client;
 
+import ie.gmit.sw.server.Server;
+
 import java.util.Scanner;
 
 public class UI {
@@ -15,22 +17,7 @@ public class UI {
 			Scanner console = new Scanner(System.in);
 			
 			option = console.nextInt();						
-			if (option == 1){
-				
-			}
-			else if (option == 2)
-			{
-								
-			}
-			else if (option == 3)
-			{
-								
-			}
-			else if (option == 4)
-			{
-				System.exit(0);
-			}
-		
+			
 		return(option);
 	}
 }
